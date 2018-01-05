@@ -8,7 +8,13 @@ Wrapping the example of running JBSE into this project
 git clone https://github.com/danglotb/Demos-JBSE
 ```
 
-2. Compile and run:
+2. Install JBSE:
+
+```
+mvn install:install-file -Dfile=Demos-JBSE/lib/jbse-0.8.0-SNAPSHOT.jar -DgroupId=jbse -DartifactId=jbse -Dversion=0.8.0-SNAPSHOT -Dpackaging=jar
+```
+
+3. Compile and run:
 
 ```
 cd Demos-JBSE
